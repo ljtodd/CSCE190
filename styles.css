@@ -12,9 +12,24 @@ body {
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:4px solid #FFF;
 }
+
+.assignment img:hover {
+    border:4px dashed #AAE1E6;
+}
+
 h1 {
     color:rgb(162, 162, 163);
     text-align:center;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover {
+    color: #AAE1E6;
 }
